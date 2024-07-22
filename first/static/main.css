@@ -1,0 +1,32 @@
+body{
+    background-color: #cce4f1;
+    width: 70%;
+    margin: 0 auto;
+}
+.Top_H{
+    text-align: center;
+    font-size: 28px;
+    margin-top: 60px;
+}
+main > article > p{
+    font-size: 20px;
+}
+main > article > h3{
+    font-size: 23px;
+    text-align: center;
+}
+main > article {
+    padding: 40px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    background-color: #3CA0D0;
+    border-bottom: 3px solid;
+    margin-top: 25px;
+}
+h4{
+    font-size: 24px;
+}
+
+main > article > ul{
+    font-size: 20px;
+}

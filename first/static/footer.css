@@ -1,0 +1,19 @@
+.footVK{
+    width: 20px;
+    height: auto;
+}
+footer{
+    margin-top: 25px;
+    border-top-right-radius:20px;
+    border-top-left-radius:20px;
+    border-top: 3px solid;
+    background-color: #086fa1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

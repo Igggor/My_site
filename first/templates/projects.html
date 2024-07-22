@@ -1,0 +1,44 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Мои Проекты</title>
+    <link rel="icon" href="{% static 'imgs/me.png' %}">
+    <link rel="stylesheet" href="{% static 'footer.css' %}">
+    <link rel="stylesheet" href="{% static 'projects.css' %}">
+    <link rel="stylesheet" href="{% static 'nav.css' %}">
+    <link rel="stylesheet" href="{% static 'cookie.css' %}">
+
+</head>
+<body>
+    {% include "predicts/navigation.html" %}
+
+    <main>
+        <article>
+            <div class="topic">
+                <h3>Голосовой Ассистент</h3>
+                <img src="" alt="Иконка ГА">
+            </div>
+            <div class="descr">
+                <h3>Описание проекта:</h3>
+                <p>
+                    Искусственный интеллект с голосом, типо Яндекс Алисы или Гугл Ассистента
+                </p>
+            </div>
+            <div class="results">
+                <h3>Результаты Олимпиад:</h3>
+                <ul>
+                    <li>Призер Всероссийского этапа Олимпиады Шаг в Будущее</li>
+                    <li>Победитель Всероссийского этапа Олимпиады Инженеры будущего</li>
+                    <li>Победитель Олимпиады Инженерный старт</li>
+                </ul>
+            </div>
+        </article>
+    </main>
+    {% include "predicts/footer.html" %}
+    {% include "predicts/cookie.html" %}
+
+
+</body>
+</html>

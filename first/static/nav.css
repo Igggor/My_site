@@ -1,0 +1,68 @@
+@media (width > 1000px){
+    .site_nav > div > a{
+    margin: 0 30px;
+    }
+}
+
+header{
+    position: sticky;
+    top: 0px;
+    border-bottom-right-radius:20px;
+    border-bottom-left-radius:20px;
+    border-bottom: 3px solid;
+    background-color: #086fa1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.banner{
+    margin: 0px auto 0px auto;
+    /* width: 100%; */
+    display: flex;
+    align-items: center;
+}
+.banner:hover{
+    cursor: wait;
+}
+
+.profile{
+    width: 50px;
+    height: 50px;
+
+}
+
+.profile_name{
+    margin-right: 15px;
+}
+.site_nav{
+    width: 100%;
+
+}
+.site_nav > div > a{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-weight: 700;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto';
+    font-size: 20px;
+    padding: 5px;
+    transition: 0.5s;
+    width: 125px;
+    height: 50px;
+    border-radius: 20px;
+}
+.site_nav > div > a:hover{
+    background-color: white;
+    color: black;
+}
+.site_nav > div{
+    width: 30%;
+    margin: 0 auto 20px;
+    display: flex;
+    justify-content: space-between;
+}

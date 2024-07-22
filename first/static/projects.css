@@ -1,0 +1,14 @@
+body{
+    background-color: #cce4f1;
+    width: 70%;
+    margin: 0 auto;
+
+}
+main > article{
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    background-color: #3CA0D0;
+    padding: 10px;
+    border-bottom: 3px solid;
+    margin-top: 25px;
+}
