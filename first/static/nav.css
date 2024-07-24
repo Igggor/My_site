@@ -19,7 +19,6 @@ header{
 }
 .banner{
     margin: 0px auto 0px auto;
-    /* width: 100%; */
     display: flex;
     align-items: center;
 }

@@ -8,14 +8,14 @@ body{
     font-size: 28px;
     margin-top: 60px;
 }
-main > article > p{
+p{
     font-size: 20px;
 }
-main > article > h3{
+h3{
     font-size: 23px;
     text-align: center;
 }
-main > article {
+.element {
     padding: 40px;
     border-radius: 30px;
     background-color: #3CA0D0;
@@ -24,8 +24,28 @@ main > article {
 }
 h4{
     font-size: 24px;
+    text-align: center;
 }
 
 main > article > ul{
     font-size: 20px;
+}
+
+.white-border-shadow {
+    background-color: white;
+    border-radius: 25px;
+    padding: 25px;
+    list-style-type: none;
+    font-size: 20px;
+    box-shadow: -12px 9px 14px 4px rgba(34, 60, 80, 0.2);
+    margin-top: 10px;
+}
+.skills {
+    list-style-type: none;
+    border: 1px black solid;
+    border-radius: 25px;
+    padding-bottom: 25px;
+}
+main {
+    min-height: 63vh;
 }
