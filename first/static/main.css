@@ -17,8 +17,7 @@ main > article > h3{
 }
 main > article {
     padding: 40px;
-    border-bottom-right-radius: 30px;
-    border-bottom-left-radius: 30px;
+    border-radius: 30px;
     background-color: #3CA0D0;
     border-bottom: 3px solid;
     margin-top: 25px;
