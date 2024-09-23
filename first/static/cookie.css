@@ -1,13 +1,15 @@
 .warning {
-	position: fixed;
-	bottom: 0;
-	left: 0;
-	display: none;
-	justify-content: center;
-	width: 100%;
-	padding: 30px;
-	box-sizing: border-box;
-	background-color: yellow;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 101%;
+    padding: 30px;
+    box-sizing: border-box;
+    background-color: #ffc771;
 }
 
 .warning--active {
@@ -16,6 +18,9 @@
 
 .warning__text {
 	margin-right: 30px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 .warning__read {
