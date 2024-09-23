@@ -4,3 +4,5 @@ first/__pycache__/
 .idea
 my_site/__pycache__/
 first/migrations/__pycache__/
+first/__pycache__/
+my_site/__pycache__/
